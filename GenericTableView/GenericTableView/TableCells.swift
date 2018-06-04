@@ -9,6 +9,7 @@
 import UIKit
 
 class TableCells: UITableViewCell, BookCell {
+
     @IBOutlet weak var bookLabel: UILabel!
     @IBOutlet weak var bookSubtitle: UILabel!
     

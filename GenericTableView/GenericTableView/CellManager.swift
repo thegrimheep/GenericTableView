@@ -10,16 +10,13 @@ import Foundation
 import UIKit
 
 protocol BookCell {
-    static var reuseId: String { get }
     associatedtype DataType
-    
     func configure(data: DataType)
     
 }
 
 protocol ConfigureCell {
     static var reuseId: String { get }
-    
     func configure(cell: UIView)
 }
 

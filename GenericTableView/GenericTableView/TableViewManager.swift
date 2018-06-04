@@ -13,7 +13,7 @@ typealias BookCellConfig = CellManager<TableCells, Book>
 typealias BookCellConfig1 = CellManager<TableCells, Book>
 
 class TableViewManager {
-    let items: [BookCell] = [
+    let items: [ConfigureCell] = [
         BookCellConfig.init(item: Book(bookTitle: "Harry Potter", bookSubtitle: "The Goblet of Fire")),
         BookCellConfig1.init(item: Book(bookTitle: "Harry Potter", bookSubtitle: "The Chamber of Secrets"))
     ]
